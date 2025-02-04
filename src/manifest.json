@@ -1,0 +1,33 @@
+{
+  "package": "xyz.cbfh.ijiraq",
+  "name": "Ijiraq",
+  "versionName": "0.0.1",
+  "versionCode": 1,
+  "minPlatformVersion": 1200,
+  "icon": "/common/logo.png",
+  "simulationVersion": "default",
+  "deviceTypeList": [
+    "watch"
+  ],
+  "features": [
+    { "name": "system.router" },
+    { "name": "system.interconnect" },
+    { "name": "system.fetch" },
+    { "name": "system.uploadtask" }
+  ],
+  "config": {
+    "logLevel": "log",
+    "designWidth": 480
+  },
+  "router": {
+    "entry": "pages/index",
+    "pages": {
+      "pages/index": {
+        "component": "index"
+      },
+      "pages/detail": {
+        "component": "detail"
+      }
+    }
+  }
+}
